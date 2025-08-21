@@ -25,7 +25,6 @@ class Customer:
         text = f"{self.full_name()},{self.age},{self.entry_fee()}"
         return text
 
-
 # インスタンス化
 ken = Customer(first_name="Ken", family_name="Tanaka", age=15)
 tom = Customer(first_name="Tom", family_name="Ford", age=57)
@@ -51,3 +50,4 @@ print(ieyasu.entry_fee())  # 1200 という値を出力
 print(ken.info_csv())  # "Ken Tanaka,15,1000" という値を出力
 print(tom.info_csv())  # "Tom Ford,57,1500" という値を出力
 print(ieyasu.info_csv())  # "Ieyasu Tokugawa,75,1200" という値を出力
+
